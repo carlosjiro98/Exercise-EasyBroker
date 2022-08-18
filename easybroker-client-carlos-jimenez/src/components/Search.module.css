@@ -1,0 +1,26 @@
+
+.mainContainer input {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--main-borders-color);
+    height: 1.8rem;
+    margin-right: 0.5rem;
+    padding-left: 10px;
+}
+
+.mainContainer input:focus {
+    outline-color: var(--main-blue);
+}
+
+.mainContainer button {
+    border: none;
+    color: white;
+    background-color: var(--main-blue);
+    height: 1.8rem;
+    width: 5rem;
+    border-radius: 5px;
+}
+
+.mainContainer button:hover {
+    background-color: var(--secondary-blue);
+}

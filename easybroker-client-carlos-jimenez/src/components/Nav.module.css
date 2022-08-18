@@ -1,0 +1,41 @@
+.NavContainer {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.07);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+.NavContainer__info {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavContainer__info h1 {
+    color: var(--main-blue);
+}
+
+.NavContainer__info nav {
+    height: 2rem;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.NavContainer__info nav a {
+    text-decoration: none;
+    color: var(--main-font-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.NavContainer__info nav a:hover {
+    color: var(--main-blue);
+}

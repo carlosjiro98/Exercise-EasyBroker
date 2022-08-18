@@ -1,0 +1,17 @@
+.mainContainer {
+    width: 100%;
+    padding: 4rem 0 2rem 0;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.pagNePre {
+    
+    width: 3rem;
+    height: 3rem;
+}
+.pageButtons {
+    display: flex;
+    gap: 0.5rem 
+}
